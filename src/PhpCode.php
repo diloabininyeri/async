@@ -28,7 +28,7 @@ class PhpCode
      */
     public static function getAutoloadPath(): string
     {
-        foreach ([1,2,3] as $level) {
+        foreach ([1,2,3,4] as $level) {
             $dirname = static::getDirectory($level);
             $autoload = $dirname .DIRECTORY_SEPARATOR.'vendor'. DIRECTORY_SEPARATOR . 'autoload.php';
 
