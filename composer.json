@@ -13,5 +13,8 @@
         "psr-4": {
             "Zeus\\Async\\": "src/"
         }
+    },
+    "require": {
+        "ext-sysvsem": "*"
     }
 }
