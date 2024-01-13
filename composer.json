@@ -1,6 +1,6 @@
 {
     "name": "zeus/async",
-    "description": "description",
+    "description": "A library that can run objects async with PHP",
     "minimum-stability": "stable",
     "license": "proprietary",
     "authors": [
